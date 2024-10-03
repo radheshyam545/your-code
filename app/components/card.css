@@ -1,0 +1,105 @@
+.button-style {
+  text-align: end;
+}
+
+.code {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 50%;
+  color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  display: flex;
+}
+
+.container img {
+  width: 200px;
+  height: 40px;
+}
+
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-family: inherit;
+}
+
+.container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.container input[type="text"] {
+  width: calc(100% - 40px);
+  padding: 12px;
+  margin: 10px 0 30px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.container .code-prefix {
+  position: absolute;
+  margin-left: -40px;
+  font-size: 18px;
+  color: #5f6368;
+}
+
+.container a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.container .btn {
+  background-color: #1a73e8;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  width: 100px;
+  margin-left: 10px;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.container .btn:hover {
+  background-color: #1669bb;
+}
+
+.row {
+  width: 50%;
+  display: block;
+  text-align: left;
+}
+
+.button-style {
+  text-align: end;
+}
+
+
+@media screen and (max-width: 400px) {
+  
+  .container{
+    display: block;
+  }
+
+  .row{
+    width: 100%;
+  }
+
+
+}
